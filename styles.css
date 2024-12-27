@@ -15,7 +15,7 @@ button{
 
 .cart:hover{
     opacity: 0.7;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .cart:active{
     opacity: 0.4;
@@ -38,7 +38,7 @@ button{
 .buy:hover{
     background-color: rgb(28, 154, 238);
     color: white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 h1{
     font-size: 24px;
