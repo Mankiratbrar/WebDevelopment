@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 button{
     cursor: pointer;
 }
@@ -8,14 +11,31 @@ button{
     width: 100px;
     border-radius: 12px;
     font-weight: 480;
+    transition: opacity 1s;
+}
+
+.cart:hover{
+    opacity: 0.7;
+}
+.cart:active{
+    opacity: 0.4;
 }
 .buy{
-    background-color: rgb(255, 164, 28);
+    
+    background-color: white;
     border: none;
     height: 25px;
     width: 100px;
     border-radius: 12px;
     font-weight: 480;
+    color: rgb(28, 154, 238);
+    transition: background-color 1s,
+         color 1s;
+}
+.buy:hover{
+    background-color: rgb(28, 154, 238);
+    color: white;
+    
 }
 h1{
     font-size: 24px;
