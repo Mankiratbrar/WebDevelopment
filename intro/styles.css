@@ -1,0 +1,37 @@
+p{
+    margin-top: 0; 
+    font-family: roboto;
+}
+.heading{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.descripton{
+    font-size: 14px;  
+    margin-bottom: 20px;
+    color: rgb(96, 96, 96);       
+}
+.author{
+    font-size: 14px;    
+    margin-bottom: 18px;
+    color: rgb(96, 96, 96);     
+}
+.info{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    line-height: 20px;
+    margin-bottom: 60;      
+}
+.text{
+    font-size: 18px;
+    text-align: center;
+    background-color: red;   
+    padding: 16px 16px; 
+    color: white;
+}
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
