@@ -31,8 +31,8 @@ button{
     font-weight: 480;
     color: rgb(28, 154, 238);
     transition: background-color 1s,
-         color 10s,
-         box-shadow 10s;
+         color 1s,
+         box-shadow 1s;
     
     
 }
