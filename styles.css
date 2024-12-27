@@ -1,6 +1,4 @@
-body{
-    background-color: black;
-}
+
 button{
     cursor: pointer;
 }
@@ -30,12 +28,15 @@ button{
     font-weight: 480;
     color: rgb(28, 154, 238);
     transition: background-color 1s,
-         color 1s;
+         color 1s,
+         box-shadow 1s;
+    
+    
 }
 .buy:hover{
     background-color: rgb(28, 154, 238);
     color: white;
-    
+    box-shadow: 5px 5px 5px black;
 }
 h1{
     font-size: 24px;
