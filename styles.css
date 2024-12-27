@@ -5,8 +5,7 @@ button{
 .cart{
     background-color: rgb(255, 216, 20);
     border: none;
-    height: 25px;
-    width: 100px;
+    
     border-radius: 12px;
     font-weight: 480;
     transition: opacity 1s,
