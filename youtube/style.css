@@ -1,0 +1,14 @@
+.thumb8{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+}
+.search{
+    margin-left: 12px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    padding: 2px 2px ;
+}
