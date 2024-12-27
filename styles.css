@@ -1,6 +1,6 @@
 p{
     margin-top: 0; 
-    font-family: Arial;
+    font-family: roboto;
 }
 .heading{
     font-weight: bold;
@@ -25,9 +25,10 @@ p{
     margin-bottom: 60;      
 }
 .text{
-    font-size: 18;
+    font-size: 18px;
     text-align: center;
-    background-color: red;    
+    background-color: red;   
+    padding: 16px 16px; 
     color: white;
 }
 span:hover{
