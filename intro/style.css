@@ -1,6 +1,6 @@
 div{
     border:  solid 2px ;
-    vertical-align: top;
+    vertical-align: middle;
     font-family: roboto;
     margin: 0px 0px;
 }
@@ -38,4 +38,5 @@ span{
 
 .button-div{
     display: inline-block;
+    width: 53px;
 }
