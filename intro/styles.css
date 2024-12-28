@@ -18,7 +18,7 @@ input{
     font-weight: 400;
     outline: none;
     border-radius: 3px;
-    transition: border-bottom 0.08s;
+    transition: border-bottom 0.08s ease-in-out;
 }
 input:focus{
     border-bottom: 3px solid #0a66c2;
