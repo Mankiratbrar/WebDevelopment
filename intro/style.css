@@ -1,3 +1,12 @@
+.profile-picture,div{
+    width: 100px;
+    height: 100px;
+}
 .profile-picture{
-    
+    margin-bottom: 6px;
+}
+div{
+    font-family: roboto;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 2px ;
 }
