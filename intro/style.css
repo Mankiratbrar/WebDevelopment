@@ -1,20 +1,24 @@
 
-.first,.second{
-    width: 100px;
-    height: 42px;
+.first,.second,.email{
+    
     font-size: 16px;
+    border: 1px solid gray;
     border-radius: 8px;
-    border-color: gray;
-    padding: 2px 22px ;
+    padding-top: 10px  ;
+    padding-bottom: 10px  ;
+    padding-left: 20px  ;
+    padding-right: 12px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0,0.01);
     outline: none;
-    vertical-align: middle;
+    
+    
 }
 .second{
     display: inline;
 }
 
 .email{
+    margin-top: 10px;
     display: block;
-    width: 296px;
+    width: 250px;
 }
