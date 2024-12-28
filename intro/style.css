@@ -1,6 +1,6 @@
 div{
     border:  solid 2px ;
-    vertical-align: middle;
+    vertical-align: top;
     font-family: roboto;
     margin: 0px 0px;
 }
@@ -10,7 +10,7 @@ div{
     
 }
 .profile-div{ 
-    width: 50px;
+    width: 17.85%;
     height: 60px;
     display: inline-block;
 }
@@ -26,8 +26,9 @@ div{
         font-size: 8px;
         padding: 10px 4px;
         color: rgb(96, 96, 96);
-        width: 150px;
-        height: 38px;
+        width: 53.57%;
+        height: 40px;
+        margin-left: -6px;
 }
 span{
     display: block;
@@ -38,5 +39,11 @@ span{
 
 .button-div{
     display: inline-block;
-    width: 53px;
+    width: 22.82%;
+    height: 60px;
+    margin-left: -6px;
+    vertical-align: middle;
+}
+button{
+    
 }
