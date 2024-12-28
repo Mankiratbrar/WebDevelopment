@@ -1,9 +1,13 @@
 div{
     border:  solid 2px ;
+    vertical-align: top;
+    font-family: roboto;
+    margin: 0px 0px;
 }
 .main{
     width: 280px;
     height: 60px; 
+    
 }
 .profile-div{ 
     width: 50px;
@@ -19,6 +23,10 @@ div{
 }
 .info{
         display: inline-block;
-        width: 100px; 
-        height: 60px;
+        font-size: 10px;
+}
+span{
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
 }
