@@ -15,7 +15,8 @@ input{
     height: 25px;
     border: none;
     margin-left: 15px;
-    font-weight: ;
+    font-weight: 400;
+    
 }
 .tweet{
     margin-top: 15px;
@@ -26,12 +27,15 @@ input{
     background-color: #0a66c2;
     color: white;
     transition: background-color 0.54s,
-    color 0.54s;
+    color 0.54s,
+    box-shadow 0.54s;
     font-size: 16px;
     font-weight: bold;
+
 }
 .tweet:hover{
     color:#0a66c2;
     background-color: rgb(195, 221, 255);
     cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.7);
 }
