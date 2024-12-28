@@ -23,10 +23,15 @@ div{
 }
 .info{
         display: inline-block;
-        font-size: 10px;
+        font-size: 8px;
+        padding: 10px 4px;
+        color: rgb(96, 96, 96);
+        width: 150px;
+        height: 38px;
 }
 span{
     display: block;
     font-size: 12px;
     font-weight: 500;
+    color: black;
 }
