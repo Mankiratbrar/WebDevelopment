@@ -1,17 +1,20 @@
-body{
-    background: #28292a;
-}
-img{
-    width: 200px;
-    display: block;
-    margin-left: 96px;
-}
-input{
-    width: 392px;
+
+.first,.second{
+    width: 100px;
     height: 42px;
     font-size: 16px;
-    border-radius: 26px;
+    border-radius: 8px;
+    border-color: gray;
     padding: 2px 22px ;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.01);
     outline: none;
+    vertical-align: middle;
+}
+.second{
+    display: inline;
+}
+
+.email{
+    display: inline;
+    width: 200px;
 }
