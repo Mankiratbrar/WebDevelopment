@@ -1,5 +1,3 @@
-p{
-    display: inline-block;
-    width: 200px;
-    vertical-align: middle;
+body{
+    background: #000;
 }
