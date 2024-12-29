@@ -13,11 +13,11 @@ div{
     border-bottom-right-radius: 34px;
     border-bottom-left-radius: 7px;
     border-top-right-radius: 7px;
-    padding: 10px 14px ;
+    padding: 12px 14px ;
     width: 200px;
     font-family: JetBrains Mono;
     background: #ebf4f8;
-    transition: all 0.5s;    
+    transition: all 0.4s;    
 }
 .main:hover{
     padding: 20px 24px;
