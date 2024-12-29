@@ -1,5 +1,6 @@
 div{
     border: 1px solid grey;
+    margin: 2px 2px;
 }
 .main{
     display: flex;
@@ -12,6 +13,15 @@ div{
     flex-direction: row;
 }
 .profilephoto{
-    width: 24px;
-    height: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.maincontent{
+    display:flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    flex-direction: ;
 }
