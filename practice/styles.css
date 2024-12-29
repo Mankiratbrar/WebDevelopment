@@ -1,5 +1,17 @@
+div{
+    border: 1px solid grey;
+}
 .main{
     display: flex;
     border: 1px solid grey;
-    width: 200px
+    width: 300px;
+    flex-direction:column;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.profilephoto{
+    width: 24px;
+    height: 24px;
 }
