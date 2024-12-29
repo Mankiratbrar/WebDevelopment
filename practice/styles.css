@@ -1,16 +1,16 @@
 div{
     border: 1px solid grey;
     margin: 2px 2px;
+    display:flex;
+    font-family: JetBrains Mono;
 }
 .main{
-    display: flex;
     border: 1px solid grey;
     width: 300px;
     flex-direction:column;
 }
-.content{
-    display: flex;
-    flex-direction: row;
+.top{
+    font-size :10px;
 }
 .profilephoto{
     width: 60px;
@@ -18,10 +18,9 @@ div{
     border-radius: 30px;
 }
 .maincontent{
-    display:flex;
     flex-direction: column;
+    flex: 1;
 }
 .heading{
-    display: flex;
-    flex-direction: ;
+    justify-content: space-between;
 }
