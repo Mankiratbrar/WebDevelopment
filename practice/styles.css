@@ -2,7 +2,8 @@ div{
     border: 1px solid grey;
     margin: 2px 2px;
     display:flex;
-    font-family: JetBrains Mono;
+    font-family:Roboto Mono;
+    font-size: 12px;
 }
 .main{
     border: 1px solid grey;
@@ -11,7 +12,12 @@ div{
 }
 .top{
     font-size :10px;
+    color: rgb(59, 59, 59);
 }
+.content{
+    align-items: center;
+}
+
 .profilephoto{
     width: 60px;
     height: 60px;
@@ -23,4 +29,16 @@ div{
 }
 .heading{
     justify-content: space-between;
+    align-items: center;
+}
+.mainheading{
+    font-size: 14px;
+    font-weight: 600;
+}
+.time{
+    font-size: 8px;
+    color: #505050;
+}
+.subject{
+    font
 }
