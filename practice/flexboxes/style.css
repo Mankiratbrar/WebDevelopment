@@ -18,7 +18,7 @@ img{
     opacity: 0;
     
 }
-img:hover + .overview{
+img:hover .overview{
     opacity: 1;
 }
 
