@@ -6,10 +6,82 @@
     <title>Document</title>
 </head>
 <body>
-    <button
-    >rock</button>
-    <button>paper</button>
-    <button>scissors</button>
+    <button onclick="
+        const Random= Math.random();
+        let computerguess;
+        let result;
+        if (Random>=0 && Random<=1/3) 
+        {
+           computerguess=;'rock';
+        } else if(Random>=1/3 && Random<=2/3) {
+            computerguess='scissors';
+        }
+        else if(Random>=2/3 && Random<=3/3)
+        {
+            computerguess='paper'
+        }
+        if (computerguess==='rock') {
+            result='tie'
+        } else if (computerguess==='paper'){
+            result='lose'
+        }
+         else if (computerguess==='sissors'){
+            result='win'
+        }
+        console.log(computerguess)
+        alert(result)
+
+        ">rock</button>
+    <button onclick="
+    const Random= Math.random();
+    let computerguess;
+    let result;
+    if (Random>=0 && Random<=1/3) 
+    {
+       computerguess=;'rock';
+    } else if(Random>=1/3 && Random<=2/3) {
+        computerguess='scissors';
+    }
+    else if(Random>=2/3 && Random<=3/3)
+    {
+        computerguess='paper'
+    }
+    if (computerguess==='rock') {
+        result='win'
+    } else if (computerguess==='paper'){
+        result='tie'
+    }
+    else if (computerguess==='sissors'){
+         result='lose'
+    }
+    console.log(computerguess)
+    alert(result)
+
+    ">paper</button>
+    <button onclick="
+   
+    if (Random>=0 && Random<=1/3) 
+    {
+       computerguess=;'rock';
+    } else if(Random>=1/3 && Random<=2/3) {
+        computerguess='scissors';
+    }
+    else if(Random>=2/3 && Random<=3/3)
+    {
+        computerguess='paper'
+    }
+    if (computerguess==='rock') {
+        result='lose'
+    } else if (computerguess==='paper'){
+        result='win'
+    }
+    else if (computerguess==='sissors'){
+        result='tie'
+    }
+    console.log(computerguess)
+    alert(result)
+
+    ">scissors</button>
 </body>
 
 
