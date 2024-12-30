@@ -21,7 +21,7 @@ img{
     opacity: 0;
     
 }
-img:hover .overview{
+.profilephoto:hover + .overview{
     opacity: 1;
 }
 
