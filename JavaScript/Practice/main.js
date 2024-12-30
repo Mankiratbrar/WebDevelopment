@@ -1,1 +1,1 @@
-console.log("My name is mankirat singh")
+const randomnumber=randomnumber;
