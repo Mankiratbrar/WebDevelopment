@@ -16,6 +16,12 @@ img{
 .overview{
     width: 170px;
     height: 70px;
-    position: ;
+    position:fixed ;
+    top: 100px;
+    opacity: 0;
+    
+}
+img:hover .overview{
+    opacity: 1;
 }
 
