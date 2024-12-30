@@ -4,6 +4,9 @@ body{
 div{
     border: solid 1px black;
 }
+.main{
+    display: inline-block;
+}
 img{
     width: 40px;
     height: 40px;
@@ -11,14 +14,29 @@ img{
 
 }
 .overview{
-    width: 170px;
-    height: 70px;
-    position:fixed ;
-    top: 100px;
+    background-color: white;
+    width: 200px;
+    padding: 12px 12px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    position: absolute;
+    top: 55px;
+    z-index: 300;
+  
     opacity: 0;
+    pointer-events: none;
+  
+    display: flex;
+    align-items: center;
+    transition: opacity 0.15s;
     
 }
-img:hover .overview{
+.profilephoto{
+    position: relative;
+    display: inline-block;
+    border-radius: 40px;
+}
+.profilephoto:hover .overview{
     opacity: 1;
 }
 
