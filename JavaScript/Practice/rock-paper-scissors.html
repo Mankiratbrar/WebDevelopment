@@ -6,7 +6,8 @@
 <body>
     <button
     onclick="
-        game(rock)
+        game('rock')
+            
     ">rock</button>
     <button>paper</button>
     <button>scissors</button>
@@ -33,11 +34,28 @@
 
         else if(userchoice ==="scissors" && computerguess === "rock"){
             result="lose"
-        }else if(userchoice ==="scissorrs" && computerguess === "paper"){
+        }else if(userchoice ==="scissors" && computerguess === "paper"){
             result="win"
         }
-
-
+        alert(`You ${result},your move ${userchoice},computer move ${computerguess}`)
     }
+
+
+
+    function pickComputermove()
+        {
+            let computermove=' '
+            let randomnumber=Math.random()
+
+            if (randomnumber>=0 && randomnumber <=1/3) {
+                computermove="rock";
+            } else if(randomnumber>=1/3 && randomnumber <=2/3){
+                computermove="paper"
+            }
+            else{
+                computermove="scissors"
+            }
+            return computermove;
+        }
 </script>
 </html>
