@@ -17,7 +17,11 @@
     game('scissors')
         
     ">scissors</button>
-    <button>reset score</button>
+    <button onclick="
+        stats.win=0
+        stats.loss=0
+        stats.draw=0;
+    ">reset score</button>
 </body>
 <script>
 
@@ -64,7 +68,7 @@
             stats.draw+=1
         }
         
-        alert(`Your move : ${userchoice}\nComputer move : ${computerguess},\nResult : ${result}\nStats : `)
+        alert(`Your move : ${userchoice}\nComputer move : ${computerguess},\nResult : ${result}\nStats : Win(${stats.win}) loss(${stats.loss}) draw(${stats.draw}) `)
 
         console.log(stats)
     }
