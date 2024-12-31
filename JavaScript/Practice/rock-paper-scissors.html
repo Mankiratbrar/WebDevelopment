@@ -21,12 +21,20 @@
         stats.win=0
         stats.loss=0
         stats.draw=0;
-        // localStorage.removeItem
+        localStorage.removeItem('score');
     ">reset score</button>
 </body>
 <script>
 
-    const stats=JSON.parse(localStorage.getItem("score"))  
+    let stats=JSON.parse(localStorage.getItem('score'))  
+
+    if (!JSON.parse(localStorage.getItem('score'))) {
+        stats={
+            win :0,
+            loss:0,
+            draw:0
+        }
+    }
     
     function game(userchoice) {
         const computerguess=pickComputermove()
@@ -66,7 +74,7 @@
             stats.draw+=1
         }
         
-        localStorage.setItem("score",JSON.stringify(stats))
+        localStorage.setItem('score',JSON.stringify(stats))
         
         alert(`Your move : ${userchoice}\nComputer move : ${computerguess},\nResult : ${result}\nStats : Win(${stats.win}) loss(${stats.loss}) draw(${stats.draw}) `)
 
