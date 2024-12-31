@@ -21,17 +21,12 @@
         stats.win=0
         stats.loss=0
         stats.draw=0;
+        // localStorage.removeItem
     ">reset score</button>
 </body>
 <script>
 
-    const stats={
-        win:0,
-        loss:0,
-        draw:0
-    }
-    localStorage.getItem("score")
-   
+    const stats=JSON.parse(localStorage.getItem("score"))  
     
     function game(userchoice) {
         const computerguess=pickComputermove()
