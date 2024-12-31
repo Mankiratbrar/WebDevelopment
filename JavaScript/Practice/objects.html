@@ -5,40 +5,48 @@
 </head>
 <body>
     <script>
-        var mani="mani"
-        const product={
-            name:'socks',
-            price:2000,
-            rating:{
-                stars:4.5,
-                count:87
-            },
-            fun : function objFunc() {
-                console.log("This is a function inside object");
+        // var mani="mani"
+        // const product={
+        //     name:'socks',
+        //     price:2000,
+        //     rating:{
+        //         stars:4.5,
+        //         count:87
+        //     },
+        //     fun : function objFunc() {
+        //         console.log("This is a function inside object");
                 
-            }
-        };
-        console.log(`${product.name} costs ${product.price}`);
+        //     }
+        // };
+        // console.log(`${product.name} costs ${product.price}`);
 
-        product.price=300
+        // product.price=300
 
-        console.log(`${product.name} costs ${product['price']} `);
+        // console.log(`${product.name} costs ${product['price']} `);
 
-        product.availabilty=true
-        console.log(product);
+        // product.availabilty=true
+        // console.log(product);
 
-        delete product.availabilty;
-        console.log(product);
+        // delete product.availabilty;
+        // console.log(product);
 
-        console.log(product.rating.count);
+        // console.log(product.rating.count);
     
-        product.fun()
+        // product.fun()
 
-        let json = JSON.stringify(product)
-        console.log(json);
+        // let json = JSON.stringify(product)
+        // console.log(json);
 
-        console.log(typeof JSON.parse(json));
+        // console.log(typeof JSON.parse(json));
         
+        console.log("Hello".length);
+        console.log("Hello".toUpperCase()); 
+
+        const obj1 ={
+            message:"hello"
+        }
+        //JS does not copy the whole object it only copies the reference to the object which is a lot faster than copying the whole object
+        const obj2 = obj1
         
     </script>
 </body>

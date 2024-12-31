@@ -26,14 +26,10 @@
 </body>
 <script>
 
-    let stats=JSON.parse(localStorage.getItem('score'))  
-
-    if (!JSON.parse(localStorage.getItem('score'))) {
-        stats={
-            win :0,
-            loss:0,
-            draw:0
-        }
+    let stats=JSON.parse(localStorage.getItem('score')) || {
+        win :0,
+        loss:0,
+        draw:0
     }
     
     function game(userchoice) {
