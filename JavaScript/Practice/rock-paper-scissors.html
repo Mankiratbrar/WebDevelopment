@@ -30,6 +30,9 @@
         loss:0,
         draw:0
     }
+    
+   
+    
     function game(userchoice) {
         const computerguess=pickComputermove()
         let result;
@@ -68,12 +71,13 @@
             stats.draw+=1
         }
         
+        localStorage.setItem("message",result)
         alert(`Your move : ${userchoice}\nComputer move : ${computerguess},\nResult : ${result}\nStats : Win(${stats.win}) loss(${stats.loss}) draw(${stats.draw}) `)
 
         console.log(stats)
     }
 
-
+   
 
     function pickComputermove()
         {
