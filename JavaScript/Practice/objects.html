@@ -10,8 +10,15 @@
             name:'socks',
             price:2000
         };
-        console.log(product.name + '${mani}');
+        console.log(`${product.name} costs ${product.price}`);
+        product.price=300
+        console.log(`${product.name} costs ${product.price} `);
+        product.availabilty=true
+        console.log(product);
+        delete product.availabilty;
+        console.log(product);
         
+
     </script>
 </body>
 </html>
