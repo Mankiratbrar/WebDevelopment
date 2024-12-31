@@ -58,7 +58,14 @@
             message:"hi"
         }
         console.log(obj3 === obj1);
+        //the above statement is false because even thought the objects have same values they have difference references and here we are comparing references and not object values if we want to compare objet values do it manuallly!!!!!!!!!!!!
         
+        const obj4 = {
+            message:"hi"
+        }
+        const message= obj4.message;
+        const { message }=obj4
+    
         
     </script>
 </body>
