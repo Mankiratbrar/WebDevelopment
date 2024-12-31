@@ -30,7 +30,7 @@
         loss:0,
         draw:0
     }
-    
+    localStorage.getItem("score")
    
     
     function game(userchoice) {
@@ -71,7 +71,8 @@
             stats.draw+=1
         }
         
-        localStorage.setItem("message",result)
+        localStorage.setItem("score",JSON.stringify(stats))
+        
         alert(`Your move : ${userchoice}\nComputer move : ${computerguess},\nResult : ${result}\nStats : Win(${stats.win}) loss(${stats.loss}) draw(${stats.draw}) `)
 
         console.log(stats)
