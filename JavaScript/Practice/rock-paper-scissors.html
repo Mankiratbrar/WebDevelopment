@@ -22,7 +22,7 @@
 <script>
 
     const stats={
-        wis:0,
+        win:0,
         loss:0,
         draw:0
     }
@@ -32,25 +32,32 @@
 
         if (userchoice == computerguess) {
             result="draw";
+            stats.draw+=1
         } else if(userchoice ==="rock" && computerguess === "paper"){            
             result="loss"
+            stats.loss+=1
         }else if(userchoice ==="rock" && computerguess === "scissors"){
             result="win"
+            stats.win+=1
         }
         
         else if(userchoice ==="paper" && computerguess === "rock"){
             result="win"
+            stats.win+=1
         }else if(userchoice ==="paper" && computerguess === "scissors"){
             result="loss"
+            stats.loss+=1
         }
 
         else if(userchoice ==="scissors" && computerguess === "rock"){
             result="lose"
+            stats.loss+=1
         }else if(userchoice ==="scissors" && computerguess === "paper"){
             result="win"
         }
-        stats.result+=1
-        alert(`Your move : ${userchoice}\nComputer move : ${computerguess},\nResult : ${result}`)
+        console.log(stats.win);
+        
+        alert(`Your move : ${userchoice}\nComputer move : ${computerguess},\nResult : ${result}\n`)
 
     }
 
