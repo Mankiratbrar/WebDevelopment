@@ -9,11 +9,23 @@
         game('rock')
             
     ">rock</button>
-    <button>paper</button>
-    <button>scissors</button>
+    <button  onclick="
+        game('paper')
+            
+    ">paper</button>
+    <button  onclick="
+    game('scissors')
+        
+    ">scissors</button>
     <button>reset score</button>
 </body>
 <script>
+
+    const stats={
+        wis:0,
+        loss:0,
+        draw:0
+    }
     function game(userchoice) {
         const computerguess=pickComputermove()
         let result;
@@ -37,7 +49,9 @@
         }else if(userchoice ==="scissors" && computerguess === "paper"){
             result="win"
         }
-        alert(`You ${result},your move ${userchoice},computer move ${computerguess}`)
+        stats.result+=1
+        alert(`Your move : ${userchoice}\nComputer move : ${computerguess},\nResult : ${result}`)
+
     }
 
 
