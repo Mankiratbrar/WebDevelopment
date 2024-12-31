@@ -45,8 +45,13 @@
         const obj1 ={
             message:"hello"
         }
-        //JS does not copy the whole object it only copies the reference to the object which is a lot faster than copying the whole object
+        // JavaScript does not copy the whole object it only copies the reference to the object which is a lot faster than copying the whole object.A reference is a shortcut that points to a object which is stored somewhere else in the memory of the computer
         const obj2 = obj1
+
+        obj1.message="hi"
+        //even if the object is constant we can change the values of the object because the const never stores the object and the object is stored in computers memory while the const is just a reference pointer to the object
+        console.log(obj1);
+        
         
     </script>
 </body>
