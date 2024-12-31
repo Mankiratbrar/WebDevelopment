@@ -61,11 +61,28 @@
         //the above statement is false because even thought the objects have same values they have difference references and here we are comparing references and not object values if we want to compare objet values do it manuallly!!!!!!!!!!!!
         
         const obj4 = {
-            message:"hi"
+            message:"hi",
+            price:799
         }
-        const message= obj4.message;
+        // const message= obj4.message;
         const { message }=obj4
-    
+        console.log(message);
+        
+        // const price= obj4.price;
+        const{price}=obj4
+        console.log(price);
+        
+        const obj5={
+            // message : message
+            message,
+            method:function function1(){
+                console.log("method");
+                
+            }
+        }
+       
+        console.log(obj5);
+        
         
     </script>
 </body>
