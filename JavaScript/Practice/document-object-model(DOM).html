@@ -35,10 +35,10 @@
         function sub() {
             if (buttonElement.innerHTML==='Subscribed') {
                 buttonElement.innerHTML='Subscribe'
-                buttonElement.className='js-button'
+                buttonElement.classList.remove()
             }else{
                 buttonElement.innerHTML='Subscribed'
-                buttonElement.className='isSubscribed'
+                buttonElement.classList.add()='isSubscribed'
             }
         }
      
