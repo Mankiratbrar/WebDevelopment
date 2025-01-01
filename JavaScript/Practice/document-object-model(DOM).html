@@ -4,18 +4,31 @@
     <title>DOM</title>
 </head>
 <body>
-    <button>hello</button>
-    <button class="js-button">second button</button>
+    <p>Youtube Subscribe Button</p>
+    <button class="js-button" onclick="
+        sub()
+    ">Subscribe</button>
+
+    <p>Rock Paper Scissor</p>
+    <a href="#" onclick="
+        loadGame()
+    ">click here</a>
     <script>
-        // document.body.innerHTML="hello"
-        document.title="noice"
+        const buttonElement=document.querySelector(".js-button")
+        const linkElement=document.querySelector(".js-li")
+        
+        function sub() {
+            if (buttonElement.innerHTML==='Subscribed') {
+                buttonElement.innerHTML='Subscribe'
+            }else{
+                buttonElement.innerHTML='Subscribed'
+            }
+        }
 
-        console.log(document.querySelector
-        ("button").innerHTML);
-        document.querySelector("button").innerHTML="changed"
+        function loadGame() {
+            
+        }
 
-        const buttonElement=document.querySelector(".js-button").innerHTML
-        console.log(buttonElement);
         
         
     </script>
