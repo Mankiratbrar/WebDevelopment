@@ -7,10 +7,15 @@
     border-radius: 15px;
     font-weight: 600;
 }
-.js-button:hover{
+.js-button,.isSubscribed:hover{
     cursor: pointer;
 }
-.js-button:active{
+.isSubscribed{
     background: rgb(194, 194, 194);
     color: #000;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
 }
