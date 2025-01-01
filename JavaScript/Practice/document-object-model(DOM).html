@@ -17,7 +17,9 @@
     <p>Orders under $40 = +$10 shipping.</p>
     <p>Orders over $40 = FREE shipping.</p>
 
-    <input type="text" placeholder="Cost of order">
+    <input type="text" placeholder="Cost of order" onkeydown="
+    handleKeyDown(event)
+    ">
     <button class="js-calculate" onclick="
         calculate()
     "       
