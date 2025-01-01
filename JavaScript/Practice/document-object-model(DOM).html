@@ -27,6 +27,7 @@
         const buttonElement=document.querySelector(".js-button")
         const linkElement=document.querySelector(".js-link")
         const inputElement=document.querySelector("input")
+        const costElement=document.querySelector(".cost")
         
         function sub() {
             if (buttonElement.innerHTML==='Subscribed') {
@@ -37,7 +38,11 @@
         }
      
        function calculate(){
-        console.log(inputElement.innerText);
+        if (inputElement.value < 40 && inputElement.value >0) {
+            costElement.innerHTML=`${inputElement.value + 10}$`
+        } else {
+            costElement.innerHTML=`${inputElement.value}$`
+        }
         
        }
         
