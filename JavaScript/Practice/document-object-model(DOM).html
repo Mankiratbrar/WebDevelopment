@@ -10,12 +10,18 @@
     ">Subscribe</button>
 
     <p>Rock Paper Scissor</p>
-    <a href="#" onclick="
-        loadGame()
+    <a href="rock-paper-scissors.html" target="_blank" class="js-link" onclick="
     ">click here</a>
+
+   <p>Amazon Shipping Calculator</p>
+    <p>Orders under $40 = +$10 shipping.</p>
+    
+    <p>Orders over $40 = FREE shipping.</p>
+    
+
     <script>
         const buttonElement=document.querySelector(".js-button")
-        const linkElement=document.querySelector(".js-li")
+        const linkElement=document.querySelector(".js-link")
         
         function sub() {
             if (buttonElement.innerHTML==='Subscribed') {
@@ -24,13 +30,5 @@
                 buttonElement.innerHTML='Subscribed'
             }
         }
-
-        function loadGame() {
-            
-        }
-
         
-        
-    </script>
-</body>
-</html>
+        
