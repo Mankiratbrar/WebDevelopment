@@ -5,11 +5,18 @@
 </head>
 <body>
     <button>hello</button>
+    <button class="js-button">second button</button>
     <script>
         // document.body.innerHTML="hello"
         document.title="noice"
 
-        console.log(document.querySelector("button").innerHTML);
+        console.log(document.querySelector
+        ("button").innerHTML);
+        document.querySelector("button").innerHTML="changed"
+
+        const buttonElement=document.querySelector(".js-button").innerHTML
+        console.log(buttonElement);
+        
         
     </script>
 </body>
