@@ -39,9 +39,20 @@
      
        function calculate(){
         if (inputElement.value < 40 && inputElement.value >0) {
-            costElement.innerHTML=`${inputElement.value + 10}$`
+            costElement.innerHTML=`${parseInt(inputElement.value) + 10}$`
         } else {
             costElement.innerHTML=`${inputElement.value}$`
+        }
+        
+       }
+
+       function handleKeyDown(event) {
+        const key = event.key
+
+        if (key==="Enter") {
+            calculate()
+        } else if(key==="Escape"){
+            inputElement.value=" "
         }
         
        }
