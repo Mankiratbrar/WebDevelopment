@@ -13,15 +13,20 @@
     <a href="rock-paper-scissors.html" target="_blank" class="js-link" onclick="
     ">click here</a>
 
-   <p>Amazon Shipping Calculator</p>
+    <p>Amazon Shipping Calculator</p>
     <p>Orders under $40 = +$10 shipping.</p>
-    
     <p>Orders over $40 = FREE shipping.</p>
-    
 
+    <input type="text" placeholder="Cost of order">
+    <button class="js-calculate" onclick="
+        calculate()
+    "       
+    >Calculate</button>
+    <p class="cost"></p>
     <script>
         const buttonElement=document.querySelector(".js-button")
         const linkElement=document.querySelector(".js-link")
+        const inputElement=document.querySelector("input")
         
         function sub() {
             if (buttonElement.innerHTML==='Subscribed') {
@@ -30,5 +35,13 @@
                 buttonElement.innerHTML='Subscribed'
             }
         }
+     
+       function calculate(){
+        console.log(inputElement.innerText);
         
-        
+       }
+        
+        
+    </script>
+</body>
+</html>
