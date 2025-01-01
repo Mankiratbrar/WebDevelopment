@@ -11,11 +11,14 @@
     cursor: pointer;
 }
 .isSubscribed{
-    background: rgb(194, 194, 194);
+    background: rgb(240, 240, 240);
     color: #000;
-    height: 30px;
-    width: 100px;
+   
+}
+.calculateButton{
+    height: 40px;
+    width: 90px;
+    background: green;
     border: none;
-    border-radius: 15px;
-    font-weight: 600;
+    color: white;
 }

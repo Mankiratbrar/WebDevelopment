@@ -21,7 +21,7 @@
     <input type="text" placeholder="Cost of order" onkeydown="
     handleKeyDown(event)
     ">
-    <button class="js-calculate" onclick="
+    <button class="calculateButton" onclick="
         calculate()
     "       
     >Calculate</button>
@@ -35,10 +35,10 @@
         function sub() {
             if (buttonElement.innerHTML==='Subscribed') {
                 buttonElement.innerHTML='Subscribe'
-                buttonElement.classList.remove()
+                buttonElement.classList.remove('isSubscribed')
             }else{
                 buttonElement.innerHTML='Subscribed'
-                buttonElement.classList.add()='isSubscribed'
+                buttonElement.classList.add('isSubscribed')
             }
         }
      
